@@ -9,7 +9,7 @@ This project aims to deliver Production grade Utilities to Internal Teams
 
 ## Usage
 
-'git clone '
+'git clone https://github.com/Yatingambhir85/DevOps-Utilities-API-Project.git '
 
 ## Setup Python Environment
 
