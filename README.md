@@ -6,7 +6,7 @@ This project aims to deliver Production grade Utilities to Internal Teams
 - AWS Resources API
 - System Metrics
 
-## PRE-Requisite
+## Pre-Requisite
 - *Python* should be installed in the system
 - AWS should be configured in the system using *aws configure*
 
@@ -14,7 +14,7 @@ This project aims to deliver Production grade Utilities to Internal Teams
 
 'git clone https://github.com/Yatingambhir85/DevOps-Utilities-API-Project.git '
 
-## FOR LOCAL SERTUP
+## FOR LOCAL SETUP
 
 - Setup Python Virtual Environment
 
@@ -33,7 +33,7 @@ This project aims to deliver Production grade Utilities to Internal Teams
 
     http:127.0.0.1:8000
 
-## FOR DOCKER SERTUP
+## FOR DOCKER SETUP
 
 - docker build -t utilities-project-image:latest .
 
