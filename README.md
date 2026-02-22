@@ -33,3 +33,7 @@ docker run -itd --name utilities-app -p 8000:8000 utilities-project-image:latest
 ## To access the application on browser
 
 http:127.0.0.1:8000
+
+## To check the APIs and their usgae use the below URL
+
+http:127.0.0.1:8000/docs
