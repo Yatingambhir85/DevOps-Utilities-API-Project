@@ -28,7 +28,7 @@ python3 main.py
 
 docker build -t utilities-project-image:latest .
 
-docker run -itd --name utilities-app -p 8000:8000 utilities-project-image:latest
+docker run -itd -v ~/.aws:/root/.aws:ro --name utilities-app -p 8000:8000utilities-project-image:latest
 
 ## To access the application on browser
 
