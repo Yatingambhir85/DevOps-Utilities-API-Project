@@ -6,34 +6,43 @@ This project aims to deliver Production grade Utilities to Internal Teams
 - AWS Resources API
 - System Metrics
 
+## PRE-Requisite
+- *Python* should be installed in the system
+- AWS should be configured in the system using *aws configure*
 
 ## Usage
 
 'git clone https://github.com/Yatingambhir85/DevOps-Utilities-API-Project.git '
 
-## Setup Python Environment
+## FOR LOCAL SERTUP
 
-python3.14 -m venv venv
-source venv/bin/activate
+- Setup Python Virtual Environment
 
-## Install Requirements
+    python3.14 -m venv venv
+    source venv/bin/activate
 
-pip install -r requirements.txt
+- Install Requirements
 
-## Run Application
+    pip install -r requirements.txt
 
-python3 main.py
+- Run Application
 
-## To Run the application using Docker 
+    python3 main.py
 
-docker build -t utilities-project-image:latest .
+- To access the application on browser
 
-docker run -itd -v ~/.aws:/root/.aws:ro --name utilities-app -p 8000:8000utilities-project-image:latest
+    http:127.0.0.1:8000
+
+## FOR DOCKER SERTUP
+
+- docker build -t utilities-project-image:latest .
+
+- docker run -itd -v ~/.aws:/root/.aws:ro --name utilities-app -p 8000:8000 utilities-project-image:latest
 
 ## To access the application on browser
 
-http:127.0.0.1:8000
+- http:127.0.0.1:8000
 
 ## To check the APIs and their usgae use the below URL
 
-http:127.0.0.1:8000/docs
+- http:127.0.0.1:8000/docs
