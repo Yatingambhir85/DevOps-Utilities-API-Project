@@ -24,3 +24,12 @@ pip install -r requirements.txt
 
 python3 main.py
 
+## To Run the application using Docker 
+
+docker build -t utilities-project-image:latest .
+
+docker run -itd --name utilities-app -p 8000:8000 utilities-project-image:latest
+
+## To access the application on browser
+
+http:127.0.0.1:8000
