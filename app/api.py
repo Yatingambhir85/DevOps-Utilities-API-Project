@@ -3,8 +3,8 @@ from routers import metrics #Importing the metrics router from the routers packa
 from routers import aws #Importing the aws router from the routers package
 #Creating an instance of FastAPI class
 app = FastAPI(
-    title="My FastAPI Application",
-    description="This is a sample FastAPI application.",
+    title="Internal DevOps Utilities Application",
+    description="This application is built using FastAPI.",
     version="1.0.0",
     docs_url="/docs",
     maintainer={
