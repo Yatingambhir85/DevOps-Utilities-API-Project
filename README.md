@@ -18,20 +18,20 @@ This project aims to deliver Production grade Utilities to Internal Teams
 
 - Setup Python Virtual Environment
 
-    python3.14 -m venv venv
-    source venv/bin/activate
+    - python3.14 -m venv venv
+    - source venv/bin/activate
 
 - Install Requirements
 
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 - Run Application
 
-    python3 main.py
+    - python3 main.py
 
 - To access the application on browser
 
-    http:127.0.0.1:8000
+    - http:127.0.0.1:8000
 
 ## FOR DOCKER SETUP
 
